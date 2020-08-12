@@ -1,0 +1,8 @@
+<div class="jumbotron text-center">
+  <h1>GIBU GUMI</h1>
+  <p>We Specialize In Software Engineering And Education</p>
+
+  <% flash.each do |key, value| %>
+    <div class="alert alert-<%= key %> "><h2><%= value %></h2></div>
+  <% end %>
+</div>
